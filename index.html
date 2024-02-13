@@ -17,729 +17,99 @@
   </head>
 
   <body>
-    <div id="mobile-menu-open" class="shadow-large">
-      <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-      <div id="mobile-menu-close">
-        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-      </div>
-      <ul id="menu" class="shadow">
-        <li>
-          <a href="#about">About me</a>
-        </li>
-        <li>
-          <a href="#education">Education</a>
-        </li>
-        <li>
-          <a href="#work-experience">Work</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#skills">Skills</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </header>
-    <!-- End header -->
-
     <div id="lead">
       <div id="lead-content">
-        <h1>Abel Berhane Woldemariam</h1>
-        <h3></h3>
-        <h3>Software Developer</h3>
-        <button onclick="downloadCV('./assets/Abel_resume.pdf')">
-          <i class="fa fa-download" aria-hidden="true"></i>
-          Resume PDF
-        </button>
-      </div>
-
-      <div id="lead-overlay"></div>
-
-      <div id="lead-down">
-        <span>
-          <i class="fa fa-chevron-down" aria-hidden="true"></i>
-        </span>
-      </div>
-      <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h2 class="heading">About Me</h2>
-          </div>
-          <div class="col-md-8">
-            <p>
-              As an enthusiastic Software Developer, I am eager to contribute to
-              team success through my strong work ethic, attention to detail,
-              and excellent organizational skills. I am an analytical and
-              detail-oriented individual who is able to create effective and
-              creative solutions to business and technology demands. My goal is
-              to use my skills and experience to help drive the success of the
-              team and the organization.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="education" class="background-alt">
-      <h2 class="heading">Education</h2>
-      <div id="experience-timeline">
-        <div data-date="Aug 2020 - Present">
-          <h2>Jacobs University Bremen</h2>
-          <div class="education1">
-            <div>
-              <p>Country: Bremen, Germany</p>
-              <p>Major: <b>Computer Science</b> (CS)</p>
-              <p>Achievement: <b>BSc Degree</b></p>
-            </div>
-            <div>
-              <button id="showEdu0" onclick="toggleEdu0();">
-                Show Courses List
-              </button>
-              <button id="hideEdu0" onclick="toggleEdu0();">
-                Hide Courses List
-              </button>
-              <div id="edu0">
-                <table border="1px solid black" class="course-table">
-                  <tr class="course-header">
-                    <th></th>
-                    <th>Courses</th>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Introduction to Computer Science</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Operating Systems</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Computer Networks</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Legal and Ethical Aspects of Computer Science</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Databases and Web Services</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Software Engineering</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Automata, Computability and Complexity</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Academic Skills in Computer Science</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Programming in C and C++</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Algorithms and Data Structures</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Introduction to Robotics and Intelligent Systems</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Calculus and Elements of Linear Algebra I</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Calculus and Elements of Linear Algebra II</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Probability and Random Processes</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>CS</p>
-                    </td>
-                    <td>
-                      <p>Numerical Methods</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Extra</p>
-                    </td>
-                    <td>
-                      <p>Macroeconomics - Theory and Policy</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Extra</p>
-                    </td>
-                    <td>
-                      <p>Introduction to Logistics & Supply Chain Management</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Extra</p>
-                    </td>
-                    <td>
-                      <p>Industrial Engineering</p>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div data-date="Sept 2019 - Feb 2020">
-          <h2>Moringa School</h2>
-          <div class="education1">
-            <div>
-              <p>Country: Nairobi, Kenya</p>
-              <p>Focus: <b>Software Development</b> (SD)</p>
-              <p>Achievement: <b>Certificate of Excellence</b></p>
-              <button onclick="downloadCV('./assets/Abel_resume.pdf')">
-                <i class="fa fa-download" aria-hidden="true"></i>
-                Certificates PDF
-              </button>
-            </div>
-            <div>
-              <button id="showEdu1" onclick="toggleEdu1()">
-                Show Courses List
-              </button>
-              <button id="hideEdu1" onclick="toggleEdu1()">
-                Hide Courses List
-              </button>
-
-              <table border="1px solid black" class="course-table" id="edu1">
-                <tr class="course-header">
-                  <th></th>
-                  <th>Courses</th>
-                </tr>
-                <tr>
-                  <td>
-                    <p>SD</p>
-                  </td>
-                  <td>
-                    <p>Front-End Development</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>SD</p>
-                  </td>
-                  <td>
-                    <p>Front-End Web Applications</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>SD</p>
-                  </td>
-                  <td>
-                    <p>Back-End Development</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>SD</p>
-                  </td>
-                  <td>
-                    <p>Back-End Web APIs</p>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        <div data-date="Sept 2015 - June 2019">
-          <h2>Saint Joseph School</h2>
-          <p>Country: Addis Ababa, Ethiopia</p>
-          <p>Focus: <b>HighSchool</b></p>
-          <p>Achievement: <b>HighSchool Diploma</b></p>
-          <ul>
-            <li>Served as the HighSchool President.</li>
-            <li>Served as IT Club Vice-President</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- End #experience -->
-
-    <!-- <section id="work-experience">
-      <h2>Work Experience</h2>
-      <div class="experience">
-        <div class="experience-div">
-         
-        </div>
-        <p>Job Description</p>
-      </div>
-      <div class="experience">
         <div>
-         
+          <h1>Abel Berhane Woldemariam</h1>
+          <h3>Software Developer</h3>
         </div>
-        <p>Job Description</p>
-       
-      </div>
-    </section> -->
 
-    <section id="work-experience">
-      <div class="row">
-        <div class="col-2 center-text">
-          <h2 class="heading">Work Experience</h2>
-        </div>
-        <div class="col-10">
-          <div class="work-container">
-            <div class="experience">
-              <div class="experience-icon">
-                <i class="fa fa-briefcase"></i>
-              </div>
-              <div class="experience-info">
-                <h3>
-                  Huawei Technologies -
-                  <span
-                    ><h6 class="experience-title">Software Engineer</h6>
-                  </span>
-                </h3>
-                <div class="work-duration">
-                  <i class="fa fa-calendar" aria-hidden="true"></i>
-                  <h6>Sept 2022 - Present</h6>
-                </div>
-
-                <ul>
-                  <li>
-                    Designed a new Software Architecture for a project, with a
-                    focus on creating highly encapsulated components.
-                  </li>
-                  <li>
-                    Actively refactored the existing architecture to improve
-                    overall performance and scalability.
-                  </li>
-                  <li>
-                    Implemented TCP/IP communication protocols to ensure
-                    seamless data transfer between various systems.
-                  </li>
-                  <li>
-                    Communicated effectively between different programming
-                    languages to deliver a final working package.
-                  </li>
-                  <li>
-                    Actively collaborated with the team to ensure the project's
-                    success.
-                  </li>
-                  <li>
-                    Utilized industry best practices to design and implement the
-                    software architecture.
-                  </li>
-                  <li>
-                    Continuously monitored and improved the software
-                    architecture to adapt to changing project requirements.
-                  </li>
-                  <li>
-                    Implemented a project from scratch and worked on optimizing
-                    the user interface to increase ease of usability.
-                  </li>
-                </ul>
-              </div>
-            </div>
+        <div class="card">
+          <div class="avatar">
+            <img class="avatar" src="./assets/cv.jpg" />
           </div>
-          <div class="work-container">
-            <div class="experience">
-              <div class="experience-icon">
-                <i class="fa fa-briefcase"></i>
-              </div>
-              <div class="experience-info">
-                <h3>
-                  Raevoluz e.K -
-                  <span
-                    ><h6 class="experience-title">Software Developer</h6>
-                  </span>
-                </h3>
-                <div class="work-duration">
-                  <i class="fa fa-calendar" aria-hidden="true"></i>
-                  <h6>May 2022 - Sept 2022</h6>
-                </div>
-
-                <ul>
-                  <li>
-                    Learned and understood the React Native infrastructure of
-                    the app and set up a project environment for React Native
-                  </li>
-                  <li>
-                    Upgraded a more than two-year-old React Native project to
-                    the latest standards and dependencies
-                  </li>
-                  <li>
-                    Implemented UI elements based on mockups from the design
-                    team and being involved in the creative process of
-                    overhauling parts of the UI and coming up with my own ideas
-                    and solutions
-                  </li>
-                  <li>
-                    Worked on an Express.js web service for the app, which runs
-                    scheduled tasks, including the selection and implementation
-                    of the corresponding library for the task scheduler
-                  </li>
-                  <li>
-                    Integrated external APIs to enhance functionality of the
-                    app.
-                  </li>
-                </ul>
-                <p>
-                  These were my tasks that were done at Raevoluz during my
-                  employment, they are related to the development and
-                  maintenance of a mobile application, including working with
-                  React Native, upgrading an old project, implementing UI
-                  elements, working on a web service and integrating external
-                  APIs.
-                </p>
-                <button
-                  onclick="downloadReferrenceLetter('./assets/Raevoluz.pdf')"
+          <div class="name">Social Links</div>
+          <div class="title">
+            <h4>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              Bremen, Germany
+            </h4>
+          </div>
+          <div class="contact">
+            <div class="position_left">
+              <h4>
+                <a href="https://github.com/Abel-b" target="_blank">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                  GitHub</a
                 >
-                  <i class="fa fa-download" aria-hidden="true"></i>
-                  Referrence Letter
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div id="projects" class="background-alt">
-      <h2 class="heading">Projects</h2>
-      <div class="container">
-        <div class="row project-title-container">
-          <div class="col-md-4 project-preview-title">
-            <h4>Habesha Pizza</h4>
-          </div>
-          <div class="col-md-3 project-preview-title">
-            <h4>AllShop</h4>
-          </div>
-          <div class="col-md-3 project-preview-title">
-            <h4>Arada Cinema</h4>
-          </div>
-          <div class="col-md-2 project-preview-title">
-            <h4>Ekub</h4>
-          </div>
-        </div>
-        <div class="project-preview-container">
-          <div
-            class="project-preview"
-            id="preview-habeshapizza"
-            onmouseover="showProjectName('habesha_pizza')"
-            onmouseout="hideProjectName('habesha_pizza')"
-          >
-            <img src="images/Habesha.png" width="90%" height="150" />
-            <div class="project-preview-footer">
-              <i class="fa fa-desktop" aria-hidden="true"></i>
-              <a href="https://abel-b.github.io/Habesha-Pizza/">Live link</a>
-              <br />
-              <i class="fa fa-github" aria-hidden="true"></i>
-              <a href="https://github.com/Abel-b/Habesha-Pizza/">Github code</a>
-            </div>
-          </div>
-
-          <div
-            class="project-preview"
-            id="preview-allshop"
-            onmouseover="showProjectName('all_shop')"
-            onmouseout="hideProjectName('all_shop')"
-          >
-            <img src="images/allShop.png" width="90%" height="150" />
-            <div class="project-preview-footer">
-              <i class="fa fa-desktop" aria-hidden="true"></i>
-              <a href="https://abel-b.github.io/Allshop/">Live link </a> <br />
-              <i class="fa fa-github" aria-hidden="true"></i>
-              <a href="https://github.com/Abel-b/Allshop/">Github code</a>
-            </div>
-          </div>
-          <div
-            class="project-preview"
-            id="preview-aradacinema"
-            onmouseover="showProjectName('arada_cinema')"
-            onmouseout="hideProjectName('arada_cinema')"
-          >
-            <img src="images/aradaCinema.png" width="90%" height="150" />
-            <div class="project-preview-footer">
-              <i class="fa fa-desktop" aria-hidden="true"></i>
-              <a href="https://abel-b.github.io/Arada-Cinema/">Live link </a>
-              <br />
-              <i class="fa fa-github" aria-hidden="true"></i>
-              <a href="https://github.com/Abel-b/Arada-Cinema">Github Code</a>
-            </div>
-          </div>
-          <div
-            class="project-preview"
-            id="preview-ekub"
-            onmouseover="showProjectName('ekub')"
-            onmouseout="hideProjectName('ekub')"
-          >
-            <img src="images/project.jpg" width="100%" height="150" />
-            <div class="project-preview-footer">
-              <i class="fa fa-github" aria-hidden="true"></i>
-              <a href="https://github.com/Abel-b/Ekub">Github Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="project shadow-large" id="project-habeshapizza">
-            <div class="project-image">
-              <img src="images/Habesha.png" width="300" height="300" />
-            </div>
-            <div class="project-info" id="habesha_pizza_text">
-              <h3>Habesha Pizza</h3>
-              <p>
-                Welcome to Habesha Pizza's online ordering and delivery website.
-                Place your order now and enjoy the taste of Habesha Pizza from
-                the comfort of your own home.
-              </p>
-              <p>Languages Used:</p>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="project shadow-large" id="project-allshop">
-            <div class="project-image">
-              <img src="images/allShop.png" width="300" height="300" />
-            </div>
-            <div class="project-info" id="all_shop_text">
-              <h3>AllShop</h3>
-              <p>
-                An online shop that helps buyers make informed shopping
-                decisions on items by comparing the prices of a product sold by
-                various vendors and getting the items delivered to them
-                conveniently.
-              </p>
-              <p>Languages Used:</p>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="project shadow-large" id="project-aradacinema">
-            <div class="project-image">
-              <img src="images/aradaCinema.png" width="300" height="300" />
-            </div>
-            <div class="project-info" id="arada_cinema_text">
-              <h3>Arada Cinema</h3>
-              <p>
-                Welcome to the front-end website for Arada Cinema. Here you can
-                easily browse showtimes and book your tickets in advance. No
-                more waiting in long lines at the box office. Make your
-                movie-going experience even better by booking your tickets
-                online today!
-              </p>
-              <p>Languages Used:</p>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="project shadow-large" id="project-ekub">
-            <div class="project-image">
-              <img src="images/project.jpg" width="300" height="300" />
-            </div>
-            <div class="project-info" id="ekub_text">
-              <h3>Ekub</h3>
-              <p>
-                Welcome to Modern Eukb Bank's website. Here, you will find a
-                100% guaranteed lottery system. No more waiting for a
-                lucky number or drawing, with our system, every ticket is a
-                winner. Our lottery system is a great way to potentially win big
-                while supporting our bank. So don't wait, visit our website and
-                purchase your lottery ticket today!
-              </p>
-              <p>Technologies Used:</p>
-              <ul>
-                <li>Spark</li>
-                <li>CSS</li>
-                <li>PSQL</li>
-                <li>Java</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-      <h2 class="heading">Programming Skills | Technologies Used</h2>
-
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Java</li>
-        <li>Spark</li>
-        <li>Android Studio</li>
-        <li>React Native</li>
-        <li>C</li>
-        <li>C++</li>
-        <li>Haskell</li>
-        <li>SQL</li>
-        <li>PSQL</li>
-        <li>MySQL</li>
-        <li>Android</li>
-        <li>Node.JS</li>
-        <li>React.JS</li>
-        <li>Angular.JS</li>
-        <li>Bootstrap</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>GitLab</li>
-      </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-      <h2>Write me a message</h2>
-      <div id="contact-form">
-        <form method="POST" action="https://formspree.io/mjvwpggl">
-          <input
-            type="hidden"
-            name="_subject"
-            value="Contact request from personal website"
-          />
-          <input
-            type="email"
-            name="_replyto"
-            placeholder="Your email address"
-            required
-          />
-          <textarea
-            name="message"
-            placeholder="Message goes here..."
-            required
-          ></textarea>
-          <button type="submit">Send</button>
-        </form>
-      </div>
-      <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-5 copyright">
-            <p>&copy; 2023 Abel BWM.</p>
-          </div>
-          <div class="col-sm-2 top">
-            <span id="to-top">
-              <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            </span>
-          </div>
-          <div class="col-sm-5 social">
-            <ul>
-              <li>
-                <a href="https://github.com/Abel-b" target="_blank"
-                  ><i class="fa fa-github" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
+              </h4>
+              <h4>
                 <a
                   href="https://www.linkedin.com/in/abel-w-berhane"
                   target="_blank"
-                  ><i class="fa fa-linkedin" aria-hidden="true"></i
-                ></a>
-              </li>
-            </ul>
+                >
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  LinkedIn
+                </a>
+              </h4>
+              <h4>
+                <a
+                  href="https://www.instagram.com/abel_berhane_wm/"
+                  target="_blank"
+                >
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  Instagram
+                </a>
+              </h4>
+            </div>
+            <div class="position_left">
+              <h4>
+                <a
+                  href="mailto:abelberhanewoldemariam@gmail.com"
+                  target="_blank"
+                >
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  Email
+                </a>
+              </h4>
+              <h4>
+                <a href="https://abel-berhane-wm.medium.com/" target="_blank">
+                  <i class="fa fa-medium" aria-hidden="true"></i>
+                  Medium
+                </a>
+              </h4>
+              <h4>
+                <a href="https://abel-b.github.io/Portfolio/" target="_blank">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                  Portfolio
+                </a>
+              </h4>
+            </div>
+            <div class="position_left">
+              <h4>
+                <a
+                  href="https://www.youtube.com/channel/UCwySw8stCDfBlcngleGCUUw"
+                  target="_blank"
+                >
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  YouTube</a
+                >
+              </h4>
+              <h4>
+                <a href="https://t.me/fabel19" target="_blank">
+                  <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                  Telegram
+                </a>
+              </h4>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- End footer -->
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="js/blog_medium.js"></script>
     <script>
       function showProject(type) {
         console.log(type);
